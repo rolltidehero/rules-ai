@@ -1,0 +1,40 @@
+## 1. Workflow & docs
+
+- **`changelog.md`**
+    
+    - Append time-stamped entries for every meaningful change/decision; never overwrite.
+        
+    - Each entry: what changed, why, implications, and key lessons after milestones.
+        
+- **`suggestions.md`**
+    
+    - Append-only, structured into:
+        
+        - Frontend
+            
+        - Backend
+            
+        - Other/Trending
+            
+    - Every response adds **15 suggestions**: 5 frontend, 5 backend, 5 other/trending.
+        
+- **`components.md`**
+    
+    - Maintain a Markdown table: name, usage location, source/library, brief description.
+        
+    - When code exists, inspect it and document all implemented components.
+        
+- **`todo.md`**
+    
+    - Single Markdown checklist of all tasks.
+        
+    - `[x]` for done, `[ ]` for pending; always kept current and comprehensive.
+        
+- **Error handling**
+    
+    - Every session includes an error/consistency pass before finishing.
+        
+    - Parsing, sync, and DOM logic must be validated and logged via a dedicated error logger.
+        
+
+---
