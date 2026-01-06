@@ -1,0 +1,22 @@
+## 2. Current project state
+
+- **Done**
+    
+    - Environment and core plugin scaffold set up.
+        
+    - Numeric-footnote parsing and navigation implemented.
+        
+- **High-level remaining**
+    
+    - Add custom label parsing.
+        
+    - Implement DOM label replacement for backreferences.
+        
+    - Implement real-time sync (listeners + debouncing).
+        
+    - Build plugin settings UI.
+        
+    - Do full testing, docs, and maintenance setup.
+        
+
+---
